@@ -1,0 +1,11 @@
+{
+  "domain": "octopus_energybreak",
+  "name": "Octopus Energy Break",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://github.com/SalvatoreITA/Octopus-EnergyBreak-Helper",
+  "dependencies": [],
+  "codeowners": ["@SalvatoreITA"],
+  "requirements": [],
+  "iot_class": "local_polling"
+}

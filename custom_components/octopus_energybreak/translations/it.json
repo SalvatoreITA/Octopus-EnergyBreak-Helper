@@ -1,0 +1,13 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Impostazioni Octopus Energy Break",
+        "description": "Seleziona il tuo sensore di **Prelievo dalla Rete** (es. `sensor.energia_oggi_prelevata`).\n\n*Nota: Deve essere cumulativo in kWh.*",
+        "data": {
+          "source_sensor": "Sensore di Prelievo Rete"
+        }
+      }
+    }
+  }
+}
