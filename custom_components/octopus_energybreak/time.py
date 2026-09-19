@@ -20,6 +20,11 @@ class OctopusEBTime(TimeEntity, RestoreEntity):
         self.hass = hass
         self._attr_name = name
         self._attr_unique_id = f"octopus_{time_id}"
+        
+        # FORZATURA DELL'ENTITY ID:
+        # Questo blocca HA dal generare il nome in automatico partendo da _attr_name
+        self.entity_id = f"time.{time_id}" 
+        
         self._attr_native_value = default_value
         self._attr_icon = icon
 
