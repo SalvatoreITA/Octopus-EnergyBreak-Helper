@@ -20,6 +20,11 @@ class OctopusEBDate(DateEntity, RestoreEntity):
         self.hass = hass
         self._attr_name = name
         self._attr_unique_id = f"octopus_{date_id}"
+        
+        # FORZATURA DELL'ENTITY ID:
+        # Questo blocca HA dal generare il nome in automatico partendo da _attr_name
+        self.entity_id = f"date.{date_id}"
+        
         self._attr_native_value = dt_util.now().date()
         self._attr_icon = icon
 
