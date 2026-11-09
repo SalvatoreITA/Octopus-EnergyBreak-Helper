@@ -1,7 +1,7 @@
 # 🐙 Octopus Energy Break Helper per Home Assistant
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
-[![version](https://img.shields.io/badge/version-v1.0.1-blue.svg)]()
+[![version](https://img.shields.io/badge/version-v1.0.2-blue.svg)]()
 [![maintainer](https://img.shields.io/badge/maintainer-Salvatore_Lentini_--_DomHouse.it-green.svg)](https://www.domhouse.it)
 
 Un componente personalizzato per Home Assistant progettato per dominare le sfide "Energy Break" di Octopus Energy. 
